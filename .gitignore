@@ -102,7 +102,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+docker/.env
 .venv
 env/
 venv/
@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# wordpress related data
+.idea
+wp-admin
+wp-content
+wp-includes
+*.php
+.htaccess
+.txt
